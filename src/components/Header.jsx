@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-      <div className="bg-[#2B3440] text-white fixed w-full top-0 z-50 " >
+      <div className="bg-[#2B3440] text-white fixed w-full top-0 z-50 ">
         {/* navbar */}
-        <div className="navbar  w-11/12 mx-auto">
+        <div className="navbar  md:w-11/12 mx-auto">
           <div className="flex-1">
             <a className="btn btn-ghost text-xl font-bold">
               <img className="size-7" src="/logo.png" alt="" /> ICE SQUAD
@@ -16,7 +16,7 @@ const Header = () => {
               <NavLink
                 to={"/"}
                 className={({ isActive }) =>
-                  `px-4 py-2 rounded-xl text-lg font-bold border-2 border-black ${
+                  `px-2 py-1 md:px-4 md:py-2 rounded-xl text-lg font-bold border-2 border-black ${
                     isActive ? "bg-black text-white" : ""
                   }`
                 }
@@ -26,7 +26,7 @@ const Header = () => {
               <NavLink
                 to={"/teachers"}
                 className={({ isActive }) =>
-                  `px-4 py-2 rounded-xl text-lg font-bold border-2 border-black ${
+                  `px-2 py-1 md:px-4 md:py-2 rounded-xl text-lg font-bold border-2 border-black ${
                     isActive ? "bg-black text-white" : ""
                   }`
                 }
