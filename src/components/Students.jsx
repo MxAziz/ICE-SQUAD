@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
+import Student from './Student';
 
 const Students = () => {
     return (
@@ -62,6 +63,24 @@ const Students = () => {
               <h3>District: Dinajpur </h3>
             </div>
           </div>
+          {/* test */}
+          <Student
+            img={"/founder.jpg"}
+            title="Muhammad Aziz"
+            description="Chapai Nawabgonj."
+          ></Student>
+          <Student
+            img={"/navin.jpg"}
+            title="Navin Nawar"
+            description={"Shirajgonj"}
+          ></Student>
+          <Student
+            img="/mozahid.jpg"
+            title="Mozahidul Islam Mozahid"
+            description={"Dinajpur"}
+          ></Student>
+
+          {/*  */}
         </div>
       </div>
     );

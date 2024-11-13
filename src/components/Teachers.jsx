@@ -3,7 +3,7 @@ import React from 'react';
 const Teachers = () => {
     return (
         <div>
-            <div className=" text-center mt-14 space-y-1">
+            <div className=" text-center mt-[150px] space-y-1">
                 <h1 className=' text-4xl font-bold'>Our Respected Teachers</h1>
                 <h3 className='text-xl font-bold text-gray-700'>Department of Information and Communication Engineering</h3>
                 <p className='text-xl font-bold text-gray-800'>Pabna University of Science and Technology</p>
