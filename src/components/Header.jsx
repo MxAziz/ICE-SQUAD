@@ -7,8 +7,8 @@ const Header = () => {
         {/* navbar */}
         <div className="navbar  md:w-11/12 mx-auto">
           <div className="flex-1">
-            <a className="btn btn-ghost text-xl font-bold">
-              <img className="size-7" src="/logo.png" alt="" /> ICE SQUAD
+            <a className="btn btn-ghost md:text-xl font-bold">
+              <img className="size-5 md:size-7" src="/logo.png"/> ICE SQUAD
             </a>
           </div>
           <div className="flex-none">
