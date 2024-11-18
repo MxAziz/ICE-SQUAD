@@ -3,6 +3,8 @@ import Banner from './Banner';
 import Student from './Student';
 
 const Students = () => {
+
+
     return (
       <div className="">
         {/* banner */}
