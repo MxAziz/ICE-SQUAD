@@ -22,18 +22,21 @@ const Students = () => {
             img="/nafi.jpg"
             title="Abdullah Al Nafi"
             description={"Bogura"}
+            phone={8801724677082}
             fb="https://www.facebook.com/al.nafee.7"
           ></Student>
           <Student
             img="/leone.jpg"
             title="Shahriar Mahmud Leone "
             description={"Jhenaidah"}
+            phone={8801775484703}
             fb="https://www.facebook.com/profile.php?id=61568144774135"
           ></Student>
           <Student
             img="/mozahid.jpg"
             title="Mozahidul Islam Mozahid"
             description={"Dinajpur"}
+            phone={8801330128867}
             fb="https://www.facebook.com/mozahid.zahid.3975"
           ></Student>
           <Student
@@ -48,84 +51,91 @@ const Students = () => {
             img="/evan.jpg"
             title="Asibuzzaman Evan Sarker "
             description={"Sirajganj"}
+            phone={8801827791122}
             fb="https://www.facebook.com/mdevan.sarker"
           ></Student>
           <Student
             img={"/girl.jpg"}
             title="Sumaiya Islam Ouishi"
             description="Natore"
-            phone={88}
+            phone={8801}
             fb="https://www.facebook.com/profile.php?id=100077558732875"
           ></Student>
           <Student
             img={"/meye.jpg"}
             title="MST. Rume Khatun"
             description="Rajshahi"
-            phone={88}
+            phone={8801971183496}
             fb="https://www.facebook.com/profile.php?id=61560324622658"
           ></Student>
           <Student
             img={"/girl.jpg"}
             title="MST. Lutfunnahar Keya"
             description="Rajshahi"
-            phone={88}
+            phone={8801}
             fb="https://www.facebook.com/keyalutfunnahar"
           ></Student>
           <Student
             img={"/meye.jpg"}
             title="MST. Sadika Rubia "
             description="Dinajpur"
-            phone={88}
+            phone={8801}
             fb="https://www.facebook.com/profile.php?id=100060950273264"
           ></Student>
           <Student
             img="/araf.jpg"
             title="Araf Zaman "
             description={"Pabna"}
+            phone={8801973301382}
             fb="https://www.facebook.com/araf.zaman.718"
           ></Student>
           <Student
             img="/arafat.jpg"
             title="MD. Arafat Hossain "
             description={"Bogura"}
+            phone={8801728473799}
             fb="https://www.facebook.com/profile.php?id=100026325469914"
           ></Student>
           <Student
             img="/rahib.jpg"
             title="MD. Rahib Chawdhury "
             description={"Dinajpur"}
+            phone={8801998155343}
             fb="https://www.facebook.com/profile.php?id=100090396586934"
           ></Student>
           <Student
             img="/ifti.jpg"
             title="M Iftikharul Islam Khan "
             description={"Tangail"}
+            phone={8801932804420}
             fb="https://www.facebook.com/Iftikharulislam.khan"
           ></Student>
           <Student
             img="/sabbir.jpg"
-            title="MD. Sabbir Hossain "
-            description={"Rajshahi"}
+            title="MD. Jubayer Rony"
+            description={"Sherpur"}
+            phone={8801643851764}
             fb="https://www.facebook.com/Sabbir42001"
           ></Student>
           <Student
             img="/apurba.jpg"
             title="Apurba Chandra Sarker "
             description={"Netrakona"}
+            phone={8801971477453}
             fb="https://www.facebook.com/apurba.sarker.5817"
           ></Student>
           <Student
             img={"/shishir.jpg"}
             title="Shishir Debnath"
             description="Tangail."
-            phone={88}
+            phone={8801720342023}
             fb="https://www.facebook.com/profile.php?id=100031113705468"
           ></Student>
           <Student
             img={"/sami.jpg"}
             title="MD. Samiul Alim"
             description="Pabna."
-            phone={88}
+            phone={8801}
             fb="https://www.facebook.com/profile.php?id=61563980463805"
           ></Student>
           <Student
@@ -139,14 +149,14 @@ const Students = () => {
             img={"/neem.jpg"}
             title="Neem Ahmed"
             description="Kishoreganj"
-            phone={88}
+            phone={8801753266598}
             fb="https://www.facebook.com/naeemahmed.naeemahmed.98622"
           ></Student>
           <Student
             img={"/mehedi.jpg"}
             title="MD. Mehedi Hasan"
             description="Satkhira."
-            phone={88}
+            phone={8801868809756}
             fb="https://www.facebook.com/profile.php?id=100086902454934"
           ></Student>
           <Student
@@ -174,14 +184,14 @@ const Students = () => {
             img={"/himel.jpg"}
             title="MD. Himel Hossen"
             description="Jhenaidah."
-            phone={88}
+            phone={8801607788393}
             fb="https://www.facebook.com/md.himelhussain.01"
           ></Student>
           <Student
             img={"/shuvo.jpg"}
             title="Joytirmoy Sana Shuvo"
             description="Satkhira"
-            phone={88}
+            phone={8801766738407}
             fb="https://www.facebook.com/profile.php?id=100072857113719"
           ></Student>
           <Student
@@ -203,21 +213,21 @@ const Students = () => {
             img={"/atik.jpg"}
             title="MD. Atik Hasan"
             description="Rajshahi"
-            phone={88}
+            phone={8801888526192}
             fb="https://www.facebook.com/profile.php?id=100012176677529"
           ></Student>
           <Student
             img={"/juhayer.jpg"}
             title="Mir Juhayer-Ul-Islam"
             description="Rajshahi"
-            phone={88}
+            phone={8801756288905}
             fb="https://www.facebook.com/mji.asif"
           ></Student>
           <Student
             img={"/imtiaz.jpg"}
             title="Imtiaz Ahmed"
             description="Rajshahi"
-            phone={88}
+            phone={8801311865439}
             fb="https://www.facebook.com/imtiaz2184"
           ></Student>
           <Student
@@ -231,7 +241,7 @@ const Students = () => {
             img={"/emon.jpg"}
             title="MD. Mahfuzur  Rahman Emon"
             description="Khustia"
-            phone={88}
+            phone={8801521720760}
             fb="https://www.facebook.com/profile.php?id=100080354675299"
           ></Student>
 

@@ -9,7 +9,7 @@ const Header = () => {
         <div className="navbar  md:w-11/12 mx-auto">
           <div className="flex-1">
             <a className="btn btn-ghost text-xl font-bold">
-              <img className="size-6 md:size-7" src="/logo.png" /> ICE SQUAD
+              <img className="size-10 rounded-full  md:size-12" src="/ice.jpg" /> ICE SQUAD
             </a>
           </div>
           <div className="flex-none">
