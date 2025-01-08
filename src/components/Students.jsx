@@ -69,18 +69,18 @@ const Students = () => {
             fb="https://www.facebook.com/profile.php?id=61560324622658"
           ></Student>
           <Student
-            img={"/girl.jpg"}
-            title="MST. Lutfunnahar Keya"
-            description="Rajshahi"
-            phone={8801}
-            fb="https://www.facebook.com/keyalutfunnahar"
-          ></Student>
-          <Student
             img={"/meye.jpg"}
             title="MST. Sadika Rubia "
             description="Dinajpur"
             phone={8801}
             fb="https://www.facebook.com/profile.php?id=100060950273264"
+          ></Student>
+          <Student
+            img={"/rony.jpg"}
+            title="Jobayer Rony"
+            description="Sherpur"
+            phone={8801}
+            fb="https://www.facebook.com/JobayerRony5678"
           ></Student>
           <Student
             img="/araf.jpg"
