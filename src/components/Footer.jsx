@@ -12,7 +12,7 @@ const Footer = () => {
                 alt=""
               />
             </figure>
-            <p className="text-2xl font-bold ">ICE SQUAD !</p>
+            <p className="text-2xl md:text-3xl font-bold ">ICE SQUAD !</p>
             <p>
               Information and Communication Engineering.
               <br />
@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
           </aside>
           <nav>
-            <h6 className="footer-title">Social</h6>
+            <h6 className="footer-title">Social Links</h6>
             <div className="grid grid-flow-col gap-4">
               <a>
                 <svg
