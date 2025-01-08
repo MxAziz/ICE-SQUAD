@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-      <div className="text-center mt-[100px] md:mt-[150px] ">
+      <div className="text-center mt-[100px] md:mt-[130px] ">
         <div className="space-y-1 mb-8">
           <h1 className="text-2xl md:text-4xl font-bold ">ICE SQUAD || BATCH 16</h1>
           <h3 className="  md:text-xl font-bold text-gray-800 ">

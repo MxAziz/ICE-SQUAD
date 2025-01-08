@@ -111,13 +111,6 @@ const Students = () => {
             fb="https://www.facebook.com/Iftikharulislam.khan"
           ></Student>
           <Student
-            img="/sabbir.jpg"
-            title="MD. Jubayer Rony"
-            description={"Sherpur"}
-            phone={8801643851764}
-            fb="https://www.facebook.com/Sabbir42001"
-          ></Student>
-          <Student
             img="/apurba.jpg"
             title="Apurba Chandra Sarker "
             description={"Netrakona"}
@@ -167,20 +160,6 @@ const Students = () => {
             fb="https://www.facebook.com/profile.php?id=61559140854709"
           ></Student>
           <Student
-            img={"/mahfuz.jpg"}
-            title="MD. Mahfujur Rahman"
-            description="Natore"
-            phone={88}
-            fb="https://www.facebook.com/mahfujur.rahman.2003"
-          ></Student>
-          <Student
-            img={"/isteak.jpg"}
-            title="MD. Isteak Ahmed"
-            description="Tangail"
-            phone={88}
-            fb="https://www.facebook.com/profile.php?id=61568415114075"
-          ></Student>
-          <Student
             img={"/himel.jpg"}
             title="MD. Himel Hossen"
             description="Jhenaidah."
@@ -201,27 +180,12 @@ const Students = () => {
             phone={88}
             fb="https://www.facebook.com/profile.php?id=100078435044091"
           ></Student>
-
-          <Student
-            img={"/tonmoy.jpg"}
-            title="Tonmoy Rahman"
-            description="Cox's Bazar"
-            phone={88}
-            fb="https://www.facebook.com/profile.php?id=100071401667575"
-          ></Student>
           <Student
             img={"/atik.jpg"}
             title="MD. Atik Hasan"
             description="Rajshahi"
             phone={8801888526192}
             fb="https://www.facebook.com/profile.php?id=100012176677529"
-          ></Student>
-          <Student
-            img={"/juhayer.jpg"}
-            title="Mir Juhayer-Ul-Islam"
-            description="Rajshahi"
-            phone={8801756288905}
-            fb="https://www.facebook.com/mji.asif"
           ></Student>
           <Student
             img={"/imtiaz.jpg"}
@@ -244,7 +208,6 @@ const Students = () => {
             phone={8801521720760}
             fb="https://www.facebook.com/profile.php?id=100080354675299"
           ></Student>
-
           {/* student card ends here... */}
         </div>
       </div>

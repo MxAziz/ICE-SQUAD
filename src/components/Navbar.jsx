@@ -33,7 +33,7 @@ const Navbar = () => {
     );
 
   return (
-    <div className="bg-[#2B3440] text-white fixed w-full top-0 z-50">
+    <div className="bg-[#2B3440]  text-white fixed w-full top-0 z-50">
       <div className="navbar w-11/12 mx-auto">
         <div className="navbar-start">
           <a className="btn btn-ghost text-xl">daisyUI</a>
