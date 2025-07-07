@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoMenu } from 'react-icons/io5';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -8,9 +8,9 @@ const Header = () => {
         {/* navbar */}
         <div className="navbar  md:w-11/12 mx-auto">
           <div className="flex-1">
-            <a className="btn btn-ghost text-xl font-bold">
+            <Link to={'/'} className="btn btn-ghost text-xl font-bold">
               <img className="size-10 rounded-full  md:size-12" src="/ice.jpg" /> ICE SQUAD
-            </a>
+            </Link>
           </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal px-1 space-x-2 md:space-x-4 hidden md:block">
