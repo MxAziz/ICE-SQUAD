@@ -1,4 +1,3 @@
-import React from 'react';
 import { IoMenu } from 'react-icons/io5';
 import { Link, NavLink } from 'react-router-dom';
 
@@ -8,8 +7,12 @@ const Header = () => {
         {/* navbar */}
         <div className="navbar  md:w-11/12 mx-auto">
           <div className="flex-1">
-            <Link to={'/'} className="btn btn-ghost text-xl font-bold">
-              <img className="size-10 rounded-full  md:size-12" src="/ice.jpg" /> ICE SQUAD
+            <Link to={"/"} className="btn btn-ghost text-xl font-bold">
+              <img
+                className="size-10 rounded-full  md:size-12"
+                src="/ice.jpg"
+              />{" "}
+              ICE SQUAD
             </Link>
           </div>
           <div className="flex-none">
@@ -57,8 +60,19 @@ const Header = () => {
                   aria-label="close sidebar"
                   className="drawer-overlay"
                 ></label>
-                <ul className="menu bg-[#2B3440] space-y-2 text-white min-h-full w-48 p-4">
+                <ul className="menu bg-[#2B3440] space-y-2 text-white min-h-full w-64 p-4">
                   {/* Sidebar content here */}
+
+                  <div className='mb-4'>
+                    <p className='flex justify-start items-center gap-2 mb-4'>
+                      <img
+                        className="size-10 rounded-full  md:size-12"
+                        src="/ice.jpg"
+                      />
+                      <h1 className="text-xl font-bold">ICE SQUAD</h1>
+                    </p>
+                    <hr />
+                  </div>
                   <NavLink
                     to={"/"}
                     className={({ isActive }) =>
