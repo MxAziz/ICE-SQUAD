@@ -20,8 +20,8 @@ const Header = () => {
               <NavLink
                 to={"/"}
                 className={({ isActive }) =>
-                  `px-2 py-1 md:px-4 md:py-2 rounded-xl md:text-lg font-bold border-2 border-black ${
-                    isActive ? "bg-black text-white" : ""
+                  `px-2 py-1 md:px-4 md:py-2 rounded-xl md:text-lg font-bold border-b border-white ${
+                    isActive ? "bg-white text-black" : ""
                   }`
                 }
               >
@@ -30,8 +30,8 @@ const Header = () => {
               <NavLink
                 to={"/teachers"}
                 className={({ isActive }) =>
-                  `px-2 py-1 md:px-4 md:py-2 rounded-xl md:text-lg font-bold border-2 border-black ${
-                    isActive ? "bg-black text-white" : ""
+                  `px-2 py-1 md:px-4 md:py-2 rounded-xl md:text-lg font-bold border-b border-white ${
+                    isActive ? "bg-white text-black" : ""
                   }`
                 }
               >
@@ -76,7 +76,7 @@ const Header = () => {
                   <NavLink
                     to={"/"}
                     className={({ isActive }) =>
-                      `  px-4 py-2 rounded-lg text-lg font-bold border border-white ${
+                      `  px-4 py-2 rounded-lg text-lg font-bold border-b border-white ${
                         isActive ? "bg-white text-black" : ""
                       }`
                     }
@@ -86,8 +86,8 @@ const Header = () => {
                   <NavLink
                     to={"/teachers"}
                     className={({ isActive }) =>
-                      `px-4 py-2 rounded-xl text-lg font-bold border border-white ${
-                        isActive ? "bg-black text-white" : ""
+                      `px-4 py-2 rounded-lg text-lg font-bold border-b border-white ${
+                        isActive ? "bg-white text-black" : ""
                       }`
                     }
                   >
