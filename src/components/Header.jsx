@@ -20,7 +20,7 @@ const Header = () => {
               <NavLink
                 to={"/"}
                 className={({ isActive }) =>
-                  `px-2 py-1 md:px-4 md:py-2 rounded-xl md:text-lg font-bold border-b border-white ${
+                  `px-2 py-1 md:px-4 md:py-2 rounded-xl md:text-base font-bold border-b border-white ${
                     isActive ? "bg-white text-black" : ""
                   }`
                 }
@@ -30,7 +30,7 @@ const Header = () => {
               <NavLink
                 to={"/teachers"}
                 className={({ isActive }) =>
-                  `px-2 py-1 md:px-4 md:py-2 rounded-xl md:text-lg font-bold border-b border-white ${
+                  `px-2 py-1 md:px-4 md:py-2 rounded-xl md:text-base font-bold border-b border-white ${
                     isActive ? "bg-white text-black" : ""
                   }`
                 }
