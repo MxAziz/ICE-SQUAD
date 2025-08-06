@@ -78,9 +78,9 @@ const Students = () => {
           <Student
             img={"/meye.jpg"}
             title="MST. Maya Akter"
-            description="Mymensigh"
+            description="Mymensihgh"
             phone={8801}
-            fb="https://www.facebook.com/profile.php?id=100060950273264"
+            fb="https://www.facebook.com/maya.akter.588886"
           ></Student>
           <Student
             img={"/rony.jpg"}
