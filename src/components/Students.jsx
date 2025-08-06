@@ -58,7 +58,7 @@ const Students = () => {
             img={"/girl.jpg"}
             title="Sumaiya Islam Ouishi"
             description="Natore"
-            phone={8801}
+            phone={8801862433898}
             fb="https://www.facebook.com/profile.php?id=100077558732875"
           ></Student>
           <Student
@@ -72,14 +72,14 @@ const Students = () => {
             img={"/meye.jpg"}
             title="MST. Sadika Rubia "
             description="Dinajpur"
-            phone={8801}
+            phone={8801704383577}
             fb="https://www.facebook.com/profile.php?id=100060950273264"
           ></Student>
           <Student
             img={"/rony.jpg"}
             title="Jobayer Rony"
             description="Sherpur"
-            phone={8801}
+            phone={8801643851764}
             fb="https://www.facebook.com/JobayerRony5678"
           ></Student>
           <Student
@@ -128,7 +128,7 @@ const Students = () => {
             img={"/sami.jpg"}
             title="MD. Samiul Alim"
             description="Pabna."
-            phone={8801}
+            phone={8801825850540}
             fb="https://www.facebook.com/profile.php?id=61563980463805"
           ></Student>
           <Student
