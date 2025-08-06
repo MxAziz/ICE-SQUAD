@@ -76,6 +76,13 @@ const Students = () => {
             fb="https://www.facebook.com/profile.php?id=100060950273264"
           ></Student>
           <Student
+            img={"/meye.jpg"}
+            title="MST. Maya Akter"
+            description="Mymensigh"
+            phone={8801}
+            fb="https://www.facebook.com/profile.php?id=100060950273264"
+          ></Student>
+          <Student
             img={"/rony.jpg"}
             title="Jobayer Rony"
             description="Sherpur"
