@@ -135,7 +135,7 @@ const Students = () => {
             img={"/sumon.jpg"}
             title="MD. Sumon Rayhan"
             description="Gazipur"
-            phone={88}
+            phone={8801306667836}
             fb="https://www.facebook.com/profile.php?id=61552912084357"
           ></Student>
           <Student
@@ -156,7 +156,7 @@ const Students = () => {
             img={"/imran.jpg"}
             title="MD. Imran Hossen"
             description="Kishoreganj"
-            phone={88}
+            phone={8801322439125}
             fb="https://www.facebook.com/profile.php?id=61559140854709"
           ></Student>
           <Student
@@ -177,7 +177,7 @@ const Students = () => {
             img={"/salman.jpg"}
             title="MD. Salman Ahmed Akash"
             description="Pabna"
-            phone={88}
+            phone={8801724285148}
             fb="https://www.facebook.com/profile.php?id=100078435044091"
           ></Student>
           <Student
@@ -198,7 +198,7 @@ const Students = () => {
             img={"/mithun.jpg"}
             title="MD. Naimul Islam Mithun"
             description="Pabna"
-            phone={88}
+            phone={8801980185857}
             fb="https://www.facebook.com/naimulislam.mithun.5"
           ></Student>
           <Student
