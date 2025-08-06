@@ -28,8 +28,8 @@ const Teachers = () => {
               <img src="/founder.jpg" className="rounded-xl h-[200px]" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Name: Mozahid </h2>
-              <h3>District: Dinajpur </h3>
+              <h2 className="card-title">Name: Muhammad Aziz </h2>
+              <h3>District: Chapai Nawabgonj </h3>
             </div>
           </div>
           {/* teacher */}
@@ -38,8 +38,8 @@ const Teachers = () => {
               <img src="/founder.jpg" className="rounded-xl h-[200px]" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Name: Mozahid </h2>
-              <h3>District: Dinajpur </h3>
+              <h2 className="card-title">Name: Muhammad Aziz </h2>
+              <h3>District: Chapai Nawabgonj </h3>
             </div>
           </div>
           {/* teacher */}
@@ -48,8 +48,8 @@ const Teachers = () => {
               <img src="/founder.jpg" className="rounded-xl h-[200px]" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Name: Mozahid </h2>
-              <h3>District: Dinajpur </h3>
+              <h2 className="card-title">Name: Muhammad Aziz </h2>
+              <h3>District: Chapai Nawabgonj </h3>
             </div>
           </div>
           {/* teacher */}
@@ -58,8 +58,8 @@ const Teachers = () => {
               <img src="/founder.jpg" className="rounded-xl h-[200px]" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Name: Mozahid </h2>
-              <h3>District: Dinajpur </h3>
+              <h2 className="card-title">Name: Muhammad Aziz </h2>
+              <h3>District: Chapai Nawabgonj </h3>
             </div>
           </div>
           {/* teacher */}
@@ -68,8 +68,8 @@ const Teachers = () => {
               <img src="/founder.jpg" className="rounded-xl h-[200px]" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Name: Mozahid </h2>
-              <h3>District: Dinajpur </h3>
+              <h2 className="card-title">Name: Muhammad Aziz </h2>
+              <h3>District: Chapai Nawabgonj </h3>
             </div>
           </div>
           {/* teacher */}
@@ -78,8 +78,8 @@ const Teachers = () => {
               <img src="/founder.jpg" className="rounded-xl h-[200px]" />
             </figure>
             <div className="card-body items-center text-center">
-              <h2 className="card-title">Name: Mozahid </h2>
-              <h3>District: Dinajpur </h3>
+              <h2 className="card-title">Name: Muhammad Aziz </h2>
+              <h3>District: Chapai Nawabgonj </h3>
             </div>
           </div>
         </div>
