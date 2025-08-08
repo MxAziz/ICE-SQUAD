@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Teachers = () => {
     return (
@@ -10,7 +9,7 @@ const Teachers = () => {
           <h3 className="md:text-xl font-bold text-gray-700">
             Department of Information and Communication Engineering
           </h3>
-          <p className="md:text-xl font-bold text-gray-800">
+          <p className="md:text-xl font-bold text-gray-700">
             Pabna University of Science and Technology
           </p>
         </div>
