@@ -1,4 +1,3 @@
-import React from "react";
 import { FaHouseChimney } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 

@@ -5,14 +5,16 @@ const Footer = () => {
       <div>
         <footer className="footer bg-neutral text-neutral-content p-10 mt-14">
           <aside>
-            <figure>
-              <img
-                className="size-14 rounded-full  md:size-20"
-                src="/ice.jpg"
-                alt=""
-              />
-            </figure>
-            <p className="text-2xl md:text-3xl font-bold ">ICE SQUAD !</p>
+            <div className=' flex justify-center items-center gap-4'>
+              <figure>
+                <img
+                  className="size-12 rounded-full  md:size-20"
+                  src="/ice.jpg"
+                  alt=""
+                />
+              </figure>
+              <p className="text-2xl md:text-3xl font-bold ">ICE SQUAD !</p>
+            </div>
             <p>
               Information and Communication Engineering.
               <br />
