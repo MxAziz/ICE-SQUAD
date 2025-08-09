@@ -22,58 +22,9 @@ const Teachers = () => {
         </figure>
         {/* teachers container */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
-          {/* teacher */}
-          <div className="card bg-base-100 w-96 shadow-xl mt-10">
-            <figure className=" p-6">
-              <img src="/founder.jpg" className="rounded-xl h-[200px]" />
-            </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">Name: Muhammad Aziz </h2>
-              <h3>District: Chapai Nawabgonj </h3>
-            </div>
-          </div>
-          {/* teacher */}
-          <div className="card bg-base-100 w-96 shadow-xl mt-10">
-            <figure className=" p-6">
-              <img src="/founder.jpg" className="rounded-xl h-[200px]" />
-            </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">Name: Muhammad Aziz </h2>
-              <h3>District: Chapai Nawabgonj </h3>
-            </div>
-          </div>
-          {/* teacher */}
-          <div className="card bg-base-100 w-96 shadow-xl mt-10">
-            <figure className=" p-6">
-              <img src="/founder.jpg" className="rounded-xl h-[200px]" />
-            </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">Name: Muhammad Aziz </h2>
-              <h3>District: Chapai Nawabgonj </h3>
-            </div>
-          </div>
-          {/* teacher */}
-          <div className="card bg-base-100 w-96 shadow-xl mt-10">
-            <figure className=" p-6">
-              <img src="/founder.jpg" className="rounded-xl h-[200px]" />
-            </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">Name: Muhammad Aziz </h2>
-              <h3>District: Chapai Nawabgonj </h3>
-            </div>
-          </div>
-          {/* teacher */}
-          <div className="card bg-base-100 w-96 shadow-xl mt-10">
-            <figure className=" p-6">
-              <img src="/founder.jpg" className="rounded-xl h-[200px]" />
-            </figure>
-            <div className="card-body items-center text-center">
-              <h2 className="card-title">Name: Muhammad Aziz </h2>
-              <h3>District: Chapai Nawabgonj </h3>
-            </div>
-          </div>
+
+
         </div>
-        {/* test */}
         <TeacherCard></TeacherCard>
       </div>
     );
