@@ -21,11 +21,27 @@ const Teachers = () => {
           />
         </figure>
         {/* teachers container */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-24">
+          <TeacherCard
+            photo="/founder.jpg"
+            name="Anwar Hossain"
+            designation="Professor"
+            study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
+            field="Machine Learning, Image processing"
+            email="abc4534@gmail.com"
+            number={8801723883838}
+          />
 
-
+          <TeacherCard
+            photo="/sumon.jpg"
+            name="Sohag Sorkar"
+            designation="Associate Professor"
+            study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
+            field="Deep Learning, Machine Learning, IoT, Wireless Communication"
+            email="sohag@example.com"
+            number={8801575598429}
+          />
         </div>
-        <TeacherCard></TeacherCard>
       </div>
     );
 };
