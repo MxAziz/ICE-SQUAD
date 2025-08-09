@@ -1,3 +1,4 @@
+import TeacherCard from "./teacher/TeacherCard";
 
 const Teachers = () => {
     return (
@@ -72,6 +73,8 @@ const Teachers = () => {
             </div>
           </div>
         </div>
+        {/* test */}
+        <TeacherCard></TeacherCard>
       </div>
     );
 };
