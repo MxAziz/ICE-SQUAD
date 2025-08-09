@@ -41,6 +41,15 @@ const Teachers = () => {
             email="sohag@example.com"
             number={8801575598429}
           />
+          <TeacherCard
+            photo="/nafi.jpg"
+            name="Sohag Sorkar"
+            designation="Associate Professor"
+            study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
+            field="Deep Learning, Machine Learning, IoT, Wireless Communication"
+            email="sohag@example.com"
+            number={8801575598429}
+          />
         </div>
       </div>
     );
