@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Banner = () => {
     return (
       <div className="text-center mt-[100px] md:mt-[125px] ">
@@ -13,7 +11,7 @@ const Banner = () => {
         <img
           className="w-full lg:w-[80%]  mt-6 rounded-2xl mx-auto "
           src="/cover.jpg"
-          alt=""
+          alt="banner-image"
         />
       </div>
     );
