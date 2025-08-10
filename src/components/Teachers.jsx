@@ -51,12 +51,12 @@ const Teachers = () => {
             number={8801575598429}
           />
           <TeacherCard
-            photo="/nafi.jpg"
+            photo="/leone.jpg"
             name="Sohag Sorkar"
-            designation="Associate Professor"
+            designation="lecturer"
             study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
             field="Deep Learning, Machine Learning, IoT, Wireless Communication"
-            email="sohag@example.com"
+            email="akif.mahadi@example.com"
             number={8801575598429}
           />
         </div>
