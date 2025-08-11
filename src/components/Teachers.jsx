@@ -53,6 +53,15 @@ const Teachers = () => {
             email="pkpnext@pust.ac.bd"
             number={8801917485890}
           />
+            <TeacherCard
+              photo={mofSir}
+              name="Dr. Md. Omar Faruk"
+              designation="Associate Professor"
+              study="Ph.D. (RU)"
+              field="Signal Processing, IoT, Fiber Optic Communication"
+              email="fom_06@pust.ac.bd"
+              number={8801712415335}
+            />
           <TeacherCard
             photo={iffatMam}
             name="Iffat Ara"
@@ -61,15 +70,6 @@ const Teachers = () => {
             field="Machine Learning, Image processing"
             email="chairman.ice@pust.ac.bd"
             number={8801723883838}
-          />
-          <TeacherCard
-            photo={mofSir}
-            name="Dr. Md. Omar Faruk"
-            designation="Associate Professor"
-            study="Ph.D. (RU)"
-            field="Signal Processing, IoT, Fiber Optic Communication"
-            email="fom_06@pust.ac.bd"
-            number={8801712415335}
           />
           <TeacherCard
             photo={sohagSir}
@@ -133,6 +133,15 @@ const Teachers = () => {
             field="Embedded System and Robotics"
             email="iamtarun09@gmail.com"
             number={8801798134745}
+          />
+          <TeacherCard
+            photo={akifSir}
+            name="Akif Mahadi"
+            designation="Lecturer"
+            study="M.Sc. (Engineering) in ICE, University of Rajshahi"
+            field="Computer Vision, Image Processing, Deep Learning"
+            email="akif.mahdi@pust.ac.bd"
+            number={8801684388093}
           />
         </div>
       </div>
