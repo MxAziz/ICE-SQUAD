@@ -28,7 +28,7 @@ const Teachers = () => {
             designation="Professor"
             study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
             field="Machine Learning, Image processing"
-            email="abc4534@gmail.com"
+            email="chairman.ice@pust.ac.bd"
             number={8801723883838}
           />
 
@@ -38,7 +38,7 @@ const Teachers = () => {
             designation="Associate Professor"
             study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
             field="Deep Learning, Machine Learning, IoT, Wireless Communication"
-            email="sohag@example.com"
+            email="sohagsarker5614@pust.ac.bd (Office)"
             number={8801575598429}
           />
           <TeacherCard
@@ -47,7 +47,7 @@ const Teachers = () => {
             designation="Associate Professor"
             study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
             field="Deep Learning, Machine Learning, IoT, Wireless Communication"
-            email="sohag@example.com"
+            email=""
             number={8801575598429}
           />
           <TeacherCard
@@ -56,7 +56,7 @@ const Teachers = () => {
             designation="lecturer"
             study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
             field="Deep Learning, Machine Learning, IoT, Wireless Communication"
-            email="akif.mahadi@example.com"
+            email=""
             number={8801575598429}
           />
         </div>
