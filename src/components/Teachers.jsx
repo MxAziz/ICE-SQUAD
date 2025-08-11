@@ -1,4 +1,17 @@
 import TeacherCard from "./teacher/TeacherCard";
+import anwarSir from "../assets/teachers/anwar-sir.jpg"
+import pollobSir from "../assets/teachers/pallab-sir.png"
+import mofSir from "../assets/teachers/mof-sir.jpg"
+import iffatMam from "../assets/teachers/iffat-ara-mam.jpg"
+import sohagSir from "../assets/teachers/sohag-sir.jpg"
+import sarwarSir from "../assets/teachers/sarwar-sir.jpg"
+import zainulSir from "../assets/teachers/zainul-sir.jpg"
+import imranSir from "../assets/teachers/imran-sir.jpg"
+import turnaMam from "../assets/teachers/turna-mam.jfif"
+import tofailsir from "../assets/teachers/tofail-sir.jfif"
+import tarunSir from "../assets/teachers/tarun-sir.jpg"
+import akifSir from "../assets/teachers/akif-sir.jpg"
+
 
 const Teachers = () => {
     return (
@@ -23,7 +36,7 @@ const Teachers = () => {
         {/* teachers container */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-24">
           <TeacherCard
-            photo="/founder.jpg"
+            photo={anwarSir}
             name="Anwar Hossain"
             designation="Professor"
             study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
@@ -32,7 +45,7 @@ const Teachers = () => {
             number={8801723883838}
           />
           <TeacherCard
-            photo="/founder.jpg"
+            photo={pollobSir}
             name="Dr. Pallab Kanti Podder"
             designation="Associate Professor (on study leave)"
             study="Ph.D (CSU, Australia)"
@@ -41,7 +54,7 @@ const Teachers = () => {
             number={8801917485890}
           />
           <TeacherCard
-            photo="/founder.jpg"
+            photo={iffatMam}
             name="Iffat Ara"
             designation="Associate Professor (on study leave)"
             study="M.Phill. (PUST) & M.Sc. in APEE (RU)"
@@ -50,7 +63,7 @@ const Teachers = () => {
             number={8801723883838}
           />
           <TeacherCard
-            photo="/sumon.jpg"
+            photo={mofSir}
             name="Dr. Md. Omar Faruk"
             designation="Associate Professor"
             study="Ph.D. (RU)"
@@ -59,7 +72,7 @@ const Teachers = () => {
             number={8801712415335}
           />
           <TeacherCard
-            photo="/sumon.jpg"
+            photo={sohagSir}
             name="Sohag Sorkar"
             designation="Associate Professor"
             study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
@@ -68,16 +81,16 @@ const Teachers = () => {
             number={8801575598429}
           />
           <TeacherCard
-            photo="/nafi.jpg"
-            name="Sohag Sorkar"
+            photo={sarwarSir}
+            name="Dr. Md. Sarwar Hosain"
             designation="Associate Professor"
-            study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
-            field="Deep Learning, Machine Learning, IoT, Wireless Communication"
-            email=""
-            number={8801575598429}
+            study="Ph.D.(Saitama University, Japan) M.Phill. (PUST)"
+            field="Speech Emotion Recognition, Bone Conducted Speech, Deep Learning, Wireless Communication"
+            email="sarwar.ice@pust.ac.bd"
+            number={8801722047833}
           />
           <TeacherCard
-            photo="/leone.jpg"
+            photo={zainulSir}
             name="Sohag Sorkar"
             designation="lecturer"
             study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
