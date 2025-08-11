@@ -91,12 +91,30 @@ const Teachers = () => {
           />
           <TeacherCard
             photo={zainulSir}
-            name="Sohag Sorkar"
-            designation="lecturer"
-            study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
-            field="Deep Learning, Machine Learning, IoT, Wireless Communication"
+            name="AFM Zainul Abadin"
+            designation="Associate Professor (on study leave)"
+            study="M.Sc. in ICE (RU) & M.Phill. (PUST)"
+            field="Information Security, Intelligent System, Deep Learning, Data Science"
+            email="abadin.7@gmail.com"
+            number={8801717797217}
+          />
+          <TeacherCard
+            photo={imranSir}
+            name="Dr. Md. Imran Hossain"
+            designation="Associate Professor"
+            study="Ph.D. (USTC, China)"
+            field="Speech Processing, Computer Vision and Image Processing, Deep Learning,"
+            email="imran05ice@gmail.com"
+            number={8801759320341}
+          />
+          <TeacherCard
+            photo={turnaMam}
+            name="Taskin Noor Turna"
+            designation="Assistant Professor"
+            study="M.Sc. in IIT, Jahangirnagar University"
+            field="Machine Learning, Wireless Sensor Network, Communication Engineering"
             email=""
-            number={8801575598429}
+            number={8801739816787}
           />
         </div>
       </div>
