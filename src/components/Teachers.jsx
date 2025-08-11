@@ -31,7 +31,15 @@ const Teachers = () => {
             email="chairman.ice@pust.ac.bd"
             number={8801723883838}
           />
-
+          <TeacherCard
+            photo="/sumon.jpg"
+            name="Dr. Md. Omar Faruk"
+            designation="Associate Professor"
+            study="Ph.D. (RU)"
+            field="Signal Processing, IoT, Fiber Optic Communication"
+            email="fom_06@pust.ac.bd"
+            number={8801712415335}
+          />
           <TeacherCard
             photo="/sumon.jpg"
             name="Sohag Sorkar"
