@@ -77,7 +77,7 @@ const Teachers = () => {
             designation="Associate Professor"
             study="M.Phill. (PUST) & M.Sc. in ICE (RU)"
             field="Deep Learning, Machine Learning, IoT, Wireless Communication"
-            email="sohagsarker5614@pust.ac.bd (Office)"
+            email="sohagsarker5614@pust.ac.bd"
             number={8801575598429}
           />
           <TeacherCard
@@ -113,8 +113,26 @@ const Teachers = () => {
             designation="Assistant Professor"
             study="M.Sc. in IIT, Jahangirnagar University"
             field="Machine Learning, Wireless Sensor Network, Communication Engineering"
-            email=""
+            email="taskin.it1405@gmail.com"
             number={8801739816787}
+          />
+          <TeacherCard
+            photo={tofailsir}
+            name="Md. Tofail Ahmed"
+            designation="Assistant Professor (on study leave)"
+            study="M.Sc. in ICE,University of Rajshahi"
+            field="Wireless Communications & Networks, Cryptography and Network Security, Data Security, signal and image processing"
+            email="tofail.ru@pust.ac.bd"
+            number=""
+          />
+          <TeacherCard
+            photo={tarunSir}
+            name="Tarun Debnath"
+            designation="Assistant Professor"
+            study="B.Sc. (Engineering) in ICE, PUST"
+            field="Embedded System and Robotics"
+            email="iamtarun09@gmail.com"
+            number={8801798134745}
           />
         </div>
       </div>
