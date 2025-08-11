@@ -16,7 +16,7 @@ import akifSir from "../assets/teachers/akif-sir.jpg"
 const Teachers = () => {
     return (
       <div>
-        <div className=" text-center mt-[100px] md:mt-[150px] space-y-1">
+        <div className=" text-center mt-[100px] md:mt-[120px] space-y-1">
           <h1 className=" text-2xl md:text-4xl font-bold">
             Our Respected Teachers
           </h1>
