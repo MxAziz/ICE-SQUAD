@@ -32,6 +32,24 @@ const Teachers = () => {
             number={8801723883838}
           />
           <TeacherCard
+            photo="/founder.jpg"
+            name="Dr. Pallab Kanti Podder"
+            designation="Associate Professor (on study leave)"
+            study="Ph.D (CSU, Australia)"
+            field=""
+            email="pkpnext@pust.ac.bd"
+            number={8801917485890}
+          />
+          <TeacherCard
+            photo="/founder.jpg"
+            name="Iffat Ara"
+            designation="Associate Professor (on study leave)"
+            study="M.Phill. (PUST) & M.Sc. in APEE (RU)"
+            field="Machine Learning, Image processing"
+            email="chairman.ice@pust.ac.bd"
+            number={8801723883838}
+          />
+          <TeacherCard
             photo="/sumon.jpg"
             name="Dr. Md. Omar Faruk"
             designation="Associate Professor"
