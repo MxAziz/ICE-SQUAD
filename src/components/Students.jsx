@@ -159,6 +159,13 @@ const Students = () => {
             fb="https://www.facebook.com/naeemahmed.naeemahmed.98622"
           ></Student>
           <Student
+            img={"/sovon.jpg"}
+            title="Md. Abu Sayed"
+            description="Chapai Nawabgonj"
+            phone={8801751-995463}
+            fb="https://www.facebook.com/JobayerRony5678"
+          ></Student>
+          <Student
             img={"/monirul.jpg"}
             title="MD. Monirujjaman"
             description="Pabna"
