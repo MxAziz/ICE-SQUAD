@@ -160,7 +160,7 @@ const Students = () => {
           ></Student>
           <Student
             img={"/monirul.jpg"}
-            title="MD. MONIRUJJAMAN"
+            title="MD. Monirujjaman"
             description="Pabna"
             phone={8801628012746}
             fb="https://www.facebook.com/monirul2746"
