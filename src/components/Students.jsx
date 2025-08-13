@@ -85,7 +85,7 @@ const Students = () => {
             img={"/santo.jpg"}
             title="Md. Hasibul Islam"
             description="Pabna"
-            phone={8801744-204817}
+            phone={8801744 - 204817}
             fb="https://www.facebook.com/hasib.santo.790"
           ></Student>
           <Student
@@ -157,6 +157,13 @@ const Students = () => {
             description="Kishoreganj"
             phone={8801753266598}
             fb="https://www.facebook.com/naeemahmed.naeemahmed.98622"
+          ></Student>
+          <Student
+            img={"/monirul.jpg"}
+            title="MD. MONIRUJJAMAN"
+            description="Pabna"
+            phone={8801628012746}
+            fb="https://www.facebook.com/monirul2746"
           ></Student>
           <Student
             img={"/mehedi.jpg"}
