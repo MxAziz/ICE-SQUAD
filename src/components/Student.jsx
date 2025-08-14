@@ -5,7 +5,7 @@ const Student = ({ img, title, description,phone, fb }) => {
   return (
     <div className="card card-compact bg-base-100 w-[370px] mx-auto shadow-xl">
       <figure>
-        <img className="h-[250px] w-5/6 mt-4 rounded-xl" src={img} />
+        <img className="h-[270px] object-cover w-5/6 mt-4 rounded-xl" src={img} />
       </figure>
       <div className="   space-y-1 my-4 mb-5 text-center">
         <h2 className="text-2xl font-bold text-center">{title}</h2>
