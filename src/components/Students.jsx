@@ -239,8 +239,22 @@ const Students = () => {
             img={"/sajib.jpg"}
             title="Imran Imtiaz Khan"
             description="Khulna"
-            phone={8801519-603757}
+            phone={8801519603757}
             fb="https://www.facebook.com/imra.imtiaz.khan"
+          ></Student>
+          <Student
+            img={"/shafi.jpg"}
+            title="Md. Ashraf Janin Khan"
+            description="Pabna"
+            phone={8801560014206}
+            fb="https://www.facebook.com/ashrafkhanshafi"
+          ></Student>
+          <Student
+            img={"/sijan.png"}
+            title="MD. JOBAYED AKONDO SIJAN"
+            description="Gaibandha"
+            phone={8801763122457}
+            fb="https://www.facebook.com/jobayed.akondo.sijan.2024"
           ></Student>
           {/* student card ends here... */}
         </div>
