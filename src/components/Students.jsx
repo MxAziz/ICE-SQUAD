@@ -162,7 +162,7 @@ const Students = () => {
             img={"/sovon.jpg"}
             title="Md. Abu Sayed"
             description="Chapai Nawabgonj"
-            phone={8801751-995463}
+            phone={8801751 - 995463}
             fb="https://www.facebook.com/JobayerRony5678"
           ></Student>
           <Student
@@ -234,6 +234,13 @@ const Students = () => {
             description="Khustia"
             phone={8801521720760}
             fb="https://www.facebook.com/profile.php?id=100080354675299"
+          ></Student>
+          <Student
+            img={"/sajib.jpg"}
+            title="Imran Imtiaz Khan"
+            description="Khulna"
+            phone={8801519-603757}
+            fb="https://www.facebook.com/imra.imtiaz.khan"
           ></Student>
           {/* student card ends here... */}
         </div>
