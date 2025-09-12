@@ -9,7 +9,7 @@ const Banner = () => {
             Information and Communication Engineering <br />
             Pabna University of Science and Technology
           </h3>
-          <Link to="https://www.notion.so/Artificial-Intelligence-Sessional-Code-26c8f9f9b2878030b8d0cee344fea3e5?source=copy_link" className="md:text-2xl font-bold text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+          <Link to="https://www.notion.so/Artificial-Intelligence-Sessional-Code-26c8f9f9b2878030b8d0cee344fea3e5?source=copy_link" className="md:text-2xl font-bold text-blue-600 hover:underline" rel="noopener noreferrer">
             Sessional Code.
           </Link>
         </div>
