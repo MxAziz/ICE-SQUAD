@@ -17,7 +17,7 @@ const Teachers = () => {
     return (
       <div>
         <div className=" text-center mt-[100px] md:mt-[120px] space-y-1">
-          <h1 className=" text-2xl md:text-4xl font-bold">
+          <h1 className=" text-2xl md:text-4xl font-bold uppercase">
             Our Respected Teachers
           </h1>
           <h3 className="md:text-xl font-bold text-gray-700">
@@ -32,6 +32,7 @@ const Teachers = () => {
             className="w-full lg:w-[80%] mt-6 rounded-2xl mx-auto "
             src="/teachers.jpg"
             loading="lazy"
+            alt="teachers-banner"
           />
         </figure>
         {/* teachers container */}
