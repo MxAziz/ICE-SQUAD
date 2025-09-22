@@ -8,10 +8,14 @@
   This component is a single-file responsive 404 page using Tailwind CSS.
 */
 
+import { Link } from "react-router-dom";
+
 export default function ErrorPage() {
   return (
     <main className="min-h-screen flex items-center justify-center bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-white p-6">
+      {/* full card */}
       <div className="max-w-4xl w-full bg-slate-900/60 backdrop-blur-sm border border-slate-700 rounded-2xl shadow-2xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
+
         {/* Left: Illustration */}
         <div className="w-full md:w-1/2 flex items-center justify-center">
           <div className="relative w-64 h-64 md:w-72 md:h-72">
@@ -21,7 +25,6 @@ export default function ErrorPage() {
                 <div className="mt-3 text-lg uppercase text-slate-400 animate-bounce">Page Not Found</div>
               </div>
             </div>
-
             {/* floating squares for subtle motion */}
             <span className="absolute -left-6 -top-6 w-8 h-8 md:w-10 md:h-10 bg-indigo-500/30 rounded-lg blur-sm animate-float-slow"></span>
             <span className="absolute -right-8 -bottom-8 w-12 h-12 md:w-16 md:h-16 bg-rose-500/30 rounded-full blur-md animate-float"></span>
@@ -35,7 +38,7 @@ export default function ErrorPage() {
           <p className="mt-3 text-slate-300">আপনি যেই ইউআরএল-এ ঢুকেছেন সেই পথটি আমাদের সিস্টেমে নেই অথবা হয়তো মুছে ফেলা হয়েছে। নিচের অপশনগুলো দেখুন —</p>
 
           <div className="mt-6 flex flex-col sm:flex-row sm:items-center sm:justify-start gap-3">
-            <a href="/" className="inline-flex items-center justify-center rounded-full px-6 py-3 bg-indigo-600 hover:bg-indigo-500 transition-shadow shadow-md text-white font-medium">হোমে ফিরে যান</a>
+            <Link to="/" className="inline-flex items-center justify-center rounded-full px-6 py-3 bg-indigo-600 hover:bg-indigo-500 transition-shadow shadow-md text-white font-medium">হোমে ফিরে যান</Link>
             <button
               onClick={() => window.history.back()}
               className="inline-flex items-center justify-center rounded-full px-6 py-3 border border-slate-700 text-slate-200 hover:bg-slate-800/40 transition"
