@@ -7,6 +7,7 @@ const TeacherCard = ({ photo, name, designation, study, field, email, number }) 
         <img
           src={photo}
           alt={name}
+          loading="lazy"
           className="w-full h-56 object-contain group-hover:brightness-90 transition duration-300"
         />
         {/* Overlay Email Button */}
