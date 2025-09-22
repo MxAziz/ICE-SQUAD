@@ -9,11 +9,13 @@ import {
 import Root from './components/Root.jsx';
 import Students from './components/Students.jsx';
 import Teachers from './components/Teachers.jsx';
+import ErrorPage from './components/Error-page/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         index: true,
