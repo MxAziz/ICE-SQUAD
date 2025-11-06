@@ -10,9 +10,16 @@ const Banner = () => {
             Pabna University of Science and Technology
           </h3>
         </div>
-        <img
+        {/* <img
           className="w-full lg:w-[80%]  mt-6 rounded-2xl mx-auto "
           src="/cover.jpg"
+          loading="lazy"
+          alt="banner-image"
+        /> */}
+
+        <img
+          className="w-full md:w-[98%] md:h-screen object-cover  mt-6 rounded-2xl mx-auto "
+          src="/banner.webp"
           loading="lazy"
           alt="banner-image"
         />
