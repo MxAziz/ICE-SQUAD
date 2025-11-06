@@ -158,6 +158,35 @@ const Students = () => {
             phone={8801753266598}
             fb="https://www.facebook.com/naeemahmed.naeemahmed.98622"
           ></Student>
+
+          <Student
+            img={"/sadat.png"}
+            title="Nuzmus Sadat"
+            description="Gazipur"
+            phone={8801602350701}
+            fb="https://www.facebook.com/nazmus.sadat.228522/"
+          ></Student>
+          <Student
+            img={"/sadman.png"}
+            title="Sadman sakib"
+            description="Rajshahi"
+            phone={8801870938346}
+            fb=""
+          ></Student>
+          <Student
+            img={"/shifat.jpg"}
+            title="Md Shifat Hossain"
+            description="Sirajganj"
+            phone={8801793769445}
+            fb="https://www.facebook.com/rahat.hossain.949142"
+          ></Student>
+          <Student
+            img={"/azmol.jpg"}
+            title="Azmal Sabbir"
+            description="Rajshahi"
+            phone={8801712996768}
+            fb="https://www.facebook.com/Azmalsabbir19"
+          ></Student>
           <Student
             img={"/sovon.jpg"}
             title="Md. Abu Sayed"
